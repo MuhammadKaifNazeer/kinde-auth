@@ -6,11 +6,10 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ShadFlow",
-  description:
-    "Shadflow is a boilerplate designed to supercharge your web development workflow, leveraging the power of Next.js, Tailwind CSS, and Shadc UI. It provides a solid foundation for building modern websites - Created By Muhammad Kaif Nazeer",
+  title: "Kaif Kinde Auth",
+  description: "Kaif Kinde Auth - Created By Muhammad Kaif Nazeer",
 };
- 
+
 export default function RootLayout({
   children,
 }: Readonly<{

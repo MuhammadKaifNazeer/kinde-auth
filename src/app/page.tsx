@@ -14,7 +14,7 @@ export default function Home() {
         <Button>Sign in</Button>
       </LoginLink>
       <RegisterLink>
-        <Button>Sign up</Button>
+        <Button>Sign up</Button>    
       </RegisterLink>
     </div>
   );
