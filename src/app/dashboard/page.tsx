@@ -28,7 +28,7 @@ export default async function Dashboad() {
             <h1>Email: {user.email}</h1>
             <h1>ID: {user.id}</h1>
 
-            <LogoutLink>
+            <LogoutLink postLogoutRedirectURL="/">
               <Button>Logout</Button>
             </LogoutLink>
           </div>
