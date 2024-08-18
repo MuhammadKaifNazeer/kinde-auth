@@ -11,16 +11,14 @@ export default async function Dashboad() {
 
   if (!user) return redirect("/signin");
 
-  console.log(user);
-
   return (
     <>
       <div className="flex items-center justify-center h-screen">
         <div className="bg-[#0f0f0f] bg-[#141414] p-5 rounded-2xl">
           <div className="flex flex-col gap-4 p-5 bg-[#0f0f0f] rounded-2xl ">
             <Image
-              src={user.picture}
-              alt={user.name}
+              src={user.picture || "/placeholder-image.svg"}
+              alt={user.name || "User Image"}
               width={40}
               height={40}
               className="rounded-full"
