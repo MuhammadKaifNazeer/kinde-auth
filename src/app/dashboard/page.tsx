@@ -18,7 +18,7 @@ export default async function Dashboad() {
           <div className="flex flex-col gap-4 p-5 bg-[#0f0f0f] rounded-2xl ">
             <Image
               src={user.picture || "/placeholder-image.svg"}
-              alt={user.name || "User Image"}
+              alt="User Image"
               width={40}
               height={40}
               className="rounded-full"
